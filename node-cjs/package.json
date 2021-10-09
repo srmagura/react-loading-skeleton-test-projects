@@ -1,9 +1,14 @@
 {
     "name": "node-cjs",
-    "packageManager": "yarn@3.0.2",
+    "private": true,
     "license": "MIT",
     "scripts": {
         "test": "jest"
+    },
+    "dependencies": {
+        "@srmagura/react-loading-skeleton": "next",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2"
     },
     "devDependencies": {
         "@babel/preset-react": "^7.14.5",
@@ -13,9 +18,5 @@
         "babel-jest": "^27.2.5",
         "jest": "^27.2.5"
     },
-    "dependencies": {
-        "@srmagura/react-loading-skeleton": "next",
-        "react": "^17.0.2",
-        "react-dom": "^17.0.2"
-    }
+    "packageManager": "yarn@3.0.2"
 }
