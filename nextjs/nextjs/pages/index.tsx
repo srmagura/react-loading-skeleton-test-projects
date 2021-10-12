@@ -1,8 +1,8 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import '../node_modules/@srmagura/react-loading-skeleton/dist/skeleton.css'
-import { Skeleton } from '../node_modules/@srmagura/react-loading-skeleton/dist/Skeleton'
+import '@srmagura/react-loading-skeleton/dist/skeleton.css'
+import { Skeletons } from './Skeletons'
 
 const Home: NextPage = () => {
     return (
@@ -15,9 +15,15 @@ const Home: NextPage = () => {
 
             <main className={styles.main}>
                 <h1 className={styles.title}>React Loading Skeleton</h1>
+                <Skeletons />
             </main>
         </div>
     )
+}
+
+// Comment out to view SSG version
+export const getServerSideProps = async () => {
+    return { props: { secretMsg: 'XYZ' } }
 }
 
 export default Home
