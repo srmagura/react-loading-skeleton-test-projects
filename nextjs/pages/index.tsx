@@ -19,14 +19,9 @@ const Home: NextPage = () => {
                     width={500}
                     highlightColor="purple"
                     baseColor="blue"
-                    // style={{ margin: '5px' }}
                 />
                 <SkeletonTheme baseColor="purple" highlightColor="blue">
-                    <Skeleton
-                        count={5}
-                        width={500}
-                        // style={{ margin: '5px' }}
-                    />
+                    <Skeleton count={5} width={500} />
                 </SkeletonTheme>
             </main>
         </div>
@@ -35,7 +30,7 @@ const Home: NextPage = () => {
 
 // Comment out to view SSG version
 // export const getServerSideProps = async () => {
-//     return { props: { secretMsg: 'XYZ' } }
+//     return { props: { } }
 // }
 
 export default Home
