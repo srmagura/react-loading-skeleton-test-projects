@@ -1,12 +1,11 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import '@srmagura/react-loading-skeleton/dist/skeleton.css'
-import { Skeletons } from './Skeletons'
+import Skeleton, { SkeletonTheme } from '@srmagura/react-loading-skeleton'
 
 const Home: NextPage = () => {
     return (
-        <div className="react-loading-skeleton">
+        <div>
             <Head>
                 <title>React Loading Skeleton Test</title>
                 <meta name="description" content="Tests RLS with Next JS" />
@@ -15,15 +14,28 @@ const Home: NextPage = () => {
 
             <main className={styles.main}>
                 <h1 className={styles.title}>React Loading Skeleton</h1>
-                <Skeletons />
+                <Skeleton
+                    count={5}
+                    width={500}
+                    highlightColor="purple"
+                    baseColor="blue"
+                    // style={{ margin: '5px' }}
+                />
+                <SkeletonTheme baseColor="purple" highlightColor="blue">
+                    <Skeleton
+                        count={5}
+                        width={500}
+                        // style={{ margin: '5px' }}
+                    />
+                </SkeletonTheme>
             </main>
         </div>
     )
 }
 
 // Comment out to view SSG version
-export const getServerSideProps = async () => {
-    return { props: { secretMsg: 'XYZ' } }
-}
+// export const getServerSideProps = async () => {
+//     return { props: { secretMsg: 'XYZ' } }
+// }
 
 export default Home
