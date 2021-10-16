@@ -1623,12 +1623,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@srmagura/react-loading-skeleton@npm:next":
-  version: 3.0.0-alpha.0
-  resolution: "@srmagura/react-loading-skeleton@npm:3.0.0-alpha.0"
+"@srmagura/react-loading-skeleton@npm:^3.0.0-rc.0":
+  version: 3.0.0-rc.0
+  resolution: "@srmagura/react-loading-skeleton@npm:3.0.0-rc.0"
   peerDependencies:
     react: ">=16.8.0"
-  checksum: 614359d946a053b410130bc0fbe9896a7ee86065691705d56a3022f97dadd90cc06907715e0510a27f9384991aa99abf0f9f0fb69c9cd9b14d82c2cc22300a01
+  checksum: 0581b6893e514952cb021d70ce18f9e8298624b1a663f95ebb94632fb1b89a7454b0fd30c937c78498ba3c4b1f9c39ed82e9366a1a7d470491ffa99b351d6960
   languageName: node
   linkType: hard
 
@@ -4460,7 +4460,7 @@ fsevents@^2.3.2:
     "@babel/preset-env": ^7.15.8
     "@babel/preset-react": ^7.14.5
     "@babel/preset-typescript": ^7.15.0
-    "@srmagura/react-loading-skeleton": next
+    "@srmagura/react-loading-skeleton": ^3.0.0-rc.0
     "@testing-library/jest-dom": ^5.14.1
     "@testing-library/react": ^12.1.2
     "@types/jest": ^27.0.2
