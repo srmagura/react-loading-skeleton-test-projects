@@ -312,12 +312,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@srmagura/react-loading-skeleton@npm:next":
-  version: 3.0.0-alpha.4
-  resolution: "@srmagura/react-loading-skeleton@npm:3.0.0-alpha.4"
+"@srmagura/react-loading-skeleton@npm:^3.0.0-rc.0":
+  version: 3.0.0-rc.0
+  resolution: "@srmagura/react-loading-skeleton@npm:3.0.0-rc.0"
   peerDependencies:
     react: ">=16.8.0"
-  checksum: 63d444771d2a8c6657a7c10cf1422d18b26ab4716a454b1d33e9692ea528775a6302d51dd4046683365073018b520bd64f3ec00fab7b65abd1b9166a1221eaa7
+  checksum: 0581b6893e514952cb021d70ce18f9e8298624b1a663f95ebb94632fb1b89a7454b0fd30c937c78498ba3c4b1f9c39ed82e9366a1a7d470491ffa99b351d6960
   languageName: node
   linkType: hard
 
@@ -3177,7 +3177,7 @@ fsevents@~2.3.1:
   version: 0.0.0-use.local
   resolution: "nextjs@workspace:."
   dependencies:
-    "@srmagura/react-loading-skeleton": next
+    "@srmagura/react-loading-skeleton": ^3.0.0-rc.0
     "@types/react": 17.0.27
     eslint: ^7.0.0
     eslint-config-next: 11.1.2
