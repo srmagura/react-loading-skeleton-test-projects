@@ -6,7 +6,7 @@
         "test": "jest"
     },
     "dependencies": {
-        "@srmagura/react-loading-skeleton": "^3.0.0-rc.0",
+        "@srmagura/react-loading-skeleton": "^3.0.0-rc.1",
         "react": "^17.0.2",
         "react-dom": "^17.0.2"
     },
