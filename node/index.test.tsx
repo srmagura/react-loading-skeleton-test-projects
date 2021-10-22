@@ -1,6 +1,10 @@
 import '@testing-library/jest-dom'
 import { render } from '@testing-library/react'
-import Skeleton, { SkeletonTheme } from '@srmagura/react-loading-skeleton'
+import Skeleton, {
+    SkeletonTheme,
+    SkeletonProps,
+    SkeletonThemeProps,
+} from '@srmagura/react-loading-skeleton'
 
 it('works', () => {
     render(
@@ -17,4 +21,7 @@ it('works', () => {
         expect(skeleton).toBeVisible()
         expect(skeleton).toHaveStyle({ borderRadius: '7px' })
     }
+
+    const skeletonProps: SkeletonProps = { count: 1 }
+    const skeletonThemeProps: SkeletonThemeProps = { highlightColor: 'black' }
 })
