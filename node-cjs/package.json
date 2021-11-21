@@ -6,17 +6,17 @@
         "test": "jest"
     },
     "dependencies": {
-        "@srmagura/react-loading-skeleton": "^3.0.1-rc.0",
+        "@srmagura/react-loading-skeleton": "^3.0.2-alpha.0",
         "react": "^17.0.2",
         "react-dom": "^17.0.2"
     },
     "devDependencies": {
-        "@babel/preset-react": "^7.14.5",
-        "@testing-library/jest-dom": "^5.14.1",
+        "@babel/preset-react": "^7.16.0",
+        "@testing-library/jest-dom": "^5.15.0",
         "@testing-library/react": "^12.1.2",
         "babel-core": "^6.26.3",
-        "babel-jest": "^27.2.5",
-        "jest": "^27.2.5"
+        "babel-jest": "^27.3.1",
+        "jest": "^27.3.1"
     },
     "packageManager": "yarn@3.0.2"
 }
