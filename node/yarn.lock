@@ -4789,7 +4789,7 @@ fsevents@^2.3.2:
     react: ^17.0.2
     react-dom: ^17.0.2
     react-loading-skeleton: ^3.2.0
-    typescript: ^4.5.2
+    typescript: next
   languageName: unknown
   linkType: soft
 
@@ -5871,23 +5871,23 @@ fsevents@^2.3.2:
   languageName: node
   linkType: hard
 
-typescript@^4.5.2:
-  version: 4.5.2
-  resolution: "typescript@npm:4.5.2"
+"typescript@npm:next":
+  version: 5.1.0-dev.20230414
+  resolution: "typescript@npm:5.1.0-dev.20230414"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 74f9ce65d532bdf5d0214b3f60cf37992180023388c87a11ee6f838a803067ef0b63c600fa501b0deb07f989257dce1e244c9635ed79feca40bbccf6e0aa1ebc
+  checksum: 84cd1cf6275b8207681030c88790f08ad208b97fcb5769b068f9dce5163b79f81ea4f802b6d650f87256385d57b5f944262a36bbad082560a4e7321df4398629
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^4.5.2#~builtin<compat/typescript>":
-  version: 4.5.2
-  resolution: "typescript@patch:typescript@npm%3A4.5.2#~builtin<compat/typescript>::version=4.5.2&hash=bcec9a"
+"typescript@patch:typescript@next#~builtin<compat/typescript>":
+  version: 5.1.0-dev.20230414
+  resolution: "typescript@patch:typescript@npm%3A5.1.0-dev.20230414#~builtin<compat/typescript>::version=5.1.0-dev.20230414&hash=85af82"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: e25e689eba64f7da7cfc43f8ea76cac7176b56caba42655f0a4cb29c0b7c36e67ca54f33df95902859f56108464245d8b45bcdfe21e3d66d9560feb8db780246
+  checksum: 4adc103f6b5864ed1fc14c0c47c616fe0f19ece4b972b1972cf24da973666c5bfc063ad7f1d042f83856d233569769c87ff751dab5078c0d1ca0b2eb4efd8f55
   languageName: node
   linkType: hard
 
