@@ -2,7 +2,7 @@
 # Manual changes might be lost - proceed with caution!
 
 __metadata:
-  version: 4
+  version: 6
   cacheKey: 8
 
 "@babel/code-frame@npm:^7.10.4, @babel/code-frame@npm:^7.12.13, @babel/code-frame@npm:^7.14.5, @babel/code-frame@npm:^7.15.8":
@@ -37,7 +37,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:7.15.8, @babel/core@npm:^7.1.0, @babel/core@npm:^7.7.2, @babel/core@npm:^7.7.5":
+"@babel/core@npm:^7.1.0, @babel/core@npm:^7.7.2, @babel/core@npm:^7.7.5":
   version: 7.15.8
   resolution: "@babel/core@npm:7.15.8"
   dependencies:
@@ -1892,15 +1892,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@srmagura/react-loading-skeleton@npm:^3.0.2-alpha.0":
-  version: 3.0.2-alpha.0
-  resolution: "@srmagura/react-loading-skeleton@npm:3.0.2-alpha.0"
-  peerDependencies:
-    react: ">=16.8.0"
-  checksum: e4701ccccd9b3c1b376e2b4fb567df59bfbc09a8f695484ce58a7d2a7aee49170d53c321c15a7e7458089af7367111c7486a5b6edf048d7b89ac85dedfec51cb
-  languageName: node
-  linkType: hard
-
 "@testing-library/dom@npm:^8.0.0":
   version: 8.7.2
   resolution: "@testing-library/dom@npm:8.7.2"
@@ -3400,15 +3391,16 @@ fsevents@^2.3.2:
   dependencies:
     node-gyp: latest
   checksum: 97ade64e75091afee5265e6956cb72ba34db7819b4c3e94c431d4be2b19b8bb7a2d4116da417950c3425f17c8fe693d25e20212cac583ac1521ad066b77ae31f
+  conditions: os=darwin
   languageName: node
   linkType: hard
 
 "fsevents@patch:fsevents@^2.3.2#~builtin<compat/fsevents>":
   version: 2.3.2
-  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=1cc4b2"
+  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"
   dependencies:
     node-gyp: latest
-  checksum: 78db9daf1f6526a49cefee3917cc988f62dc7f25b5dd80ad6de4ffc4af7f0cab7491ac737626ff53e482a111bc53aac9e411fe3602458eca36f6a003ecf69c16
+  conditions: os=darwin
   languageName: node
   linkType: hard
 
@@ -4172,7 +4164,7 @@ fsevents@^2.3.2:
   languageName: node
   linkType: hard
 
-"jest-resolve@npm:27.3.1, jest-resolve@npm:^27.3.1":
+"jest-resolve@npm:^27.3.1":
   version: 27.3.1
   resolution: "jest-resolve@npm:27.3.1"
   dependencies:
@@ -4786,7 +4778,6 @@ fsevents@^2.3.2:
     "@babel/preset-env": ^7.16.4
     "@babel/preset-react": ^7.16.0
     "@babel/preset-typescript": ^7.16.0
-    "@srmagura/react-loading-skeleton": ^3.0.2-alpha.0
     "@testing-library/jest-dom": ^5.15.0
     "@testing-library/react": ^12.1.2
     "@types/jest": ^27.0.3
@@ -4797,6 +4788,7 @@ fsevents@^2.3.2:
     jest: ^27.3.1
     react: ^17.0.2
     react-dom: ^17.0.2
+    react-loading-skeleton: ^3.2.0
     typescript: ^4.5.2
   languageName: unknown
   linkType: soft
@@ -5188,6 +5180,15 @@ fsevents@^2.3.2:
   languageName: node
   linkType: hard
 
+"react-loading-skeleton@npm:^3.2.0":
+  version: 3.2.0
+  resolution: "react-loading-skeleton@npm:3.2.0"
+  peerDependencies:
+    react: ">=16.8.0"
+  checksum: 0da0d6747191696aee37aa202bb09af72316f7ddb6b5e7c7d82beaa7f06a6e931814f0f0d8e4536524985cb9c26f15ec95420e0463d8e9a3698dfdade20eb4ee
+  languageName: node
+  linkType: hard
+
 "react@npm:^17.0.2":
   version: 17.0.2
   resolution: "react@npm:17.0.2"
@@ -5345,11 +5346,11 @@ fsevents@^2.3.2:
 
 "resolve@patch:resolve@^1.14.2#~builtin<compat/resolve>, resolve@patch:resolve@^1.20.0#~builtin<compat/resolve>":
   version: 1.20.0
-  resolution: "resolve@patch:resolve@npm%3A1.20.0#~builtin<compat/resolve>::version=1.20.0&hash=00b1ff"
+  resolution: "resolve@patch:resolve@npm%3A1.20.0#~builtin<compat/resolve>::version=1.20.0&hash=c3c19d"
   dependencies:
     is-core-module: ^2.2.0
     path-parse: ^1.0.6
-  checksum: bed00be983cd20a8af0e7840664f655c4b269786dbd9595c5f156cd9d8a0050e65cdbbbdafc30ee9b6245b230c78a2c8ab6447a52545b582f476c29adb188cc5
+  checksum: a0dd7d16a8e47af23afa9386df2dff10e3e0debb2c7299a42e581d9d9b04d7ad5d2c53f24f1e043f7b3c250cbdc71150063e53d0b6559683d37f790b7c8c3cd5
   languageName: node
   linkType: hard
 
@@ -5882,11 +5883,11 @@ typescript@^4.5.2:
 
 "typescript@patch:typescript@^4.5.2#~builtin<compat/typescript>":
   version: 4.5.2
-  resolution: "typescript@patch:typescript@npm%3A4.5.2#~builtin<compat/typescript>::version=4.5.2&hash=32657b"
+  resolution: "typescript@patch:typescript@npm%3A4.5.2#~builtin<compat/typescript>::version=4.5.2&hash=bcec9a"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 02cf0f190f0cb6d216558d8db9c3a968feeab4965c340a351e5e6e84a42a3946e5e200a9538b6e427af9d17e4f713254dd0707d5fd6f238ce93f0aee1986ab57
+  checksum: e25e689eba64f7da7cfc43f8ea76cac7176b56caba42655f0a4cb29c0b7c36e67ca54f33df95902859f56108464245d8b45bcdfe21e3d66d9560feb8db780246
   languageName: node
   linkType: hard
 
