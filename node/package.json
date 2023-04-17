@@ -1,5 +1,5 @@
 {
-  "name": "node-cjs",
+  "name": "node",
   "private": true,
   "license": "MIT",
   "type": "module",
