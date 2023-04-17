@@ -4771,28 +4771,6 @@ fsevents@^2.3.2:
   languageName: node
   linkType: hard
 
-"node-cjs@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "node-cjs@workspace:."
-  dependencies:
-    "@babel/preset-env": ^7.16.4
-    "@babel/preset-react": ^7.16.0
-    "@babel/preset-typescript": ^7.16.0
-    "@testing-library/jest-dom": ^5.15.0
-    "@testing-library/react": ^12.1.2
-    "@types/jest": ^27.0.3
-    "@types/react": ^17.0.35
-    "@types/react-dom": ^17.0.11
-    babel-core: ^6.26.3
-    babel-jest: ^27.3.1
-    jest: ^27.3.1
-    react: ^17.0.2
-    react-dom: ^17.0.2
-    react-loading-skeleton: ^3.2.0
-    typescript: next
-  languageName: unknown
-  linkType: soft
-
 "node-gyp@npm:latest":
   version: 8.2.0
   resolution: "node-gyp@npm:8.2.0"
@@ -4840,6 +4818,28 @@ fsevents@^2.3.2:
   checksum: b20dd8d4bced11f75060f0387e05e76b9dc4a0451f7bb3516eade6f50499ea7768ba95d8a60d520c193402df1e58cb3fe301510cc1c1ad68949c3d57b5149866
   languageName: node
   linkType: hard
+
+"node@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "node@workspace:."
+  dependencies:
+    "@babel/preset-env": ^7.16.4
+    "@babel/preset-react": ^7.16.0
+    "@babel/preset-typescript": ^7.16.0
+    "@testing-library/jest-dom": ^5.15.0
+    "@testing-library/react": ^12.1.2
+    "@types/jest": ^27.0.3
+    "@types/react": ^17.0.35
+    "@types/react-dom": ^17.0.11
+    babel-core: ^6.26.3
+    babel-jest: ^27.3.1
+    jest: ^27.3.1
+    react: ^17.0.2
+    react-dom: ^17.0.2
+    react-loading-skeleton: ^3.2.0
+    typescript: next
+  languageName: unknown
+  linkType: soft
 
 "nopt@npm:^5.0.0":
   version: 5.0.0
