@@ -1,10 +1,13 @@
 {
   "name": "node-cjs",
   "scripts": {
-    "start": "tsc && node main.js"
+    "start": "tsc && node main.js",
+    "test": "tsc && jest main.test.js"
   },
   "dependencies": {
     "@srmagura/react-loading-skeleton": "^3.2.1",
+    "@types/jest": "^29.5.1",
+    "jest": "^29.5.0",
     "typescript": "^5.0.4"
   }
 }

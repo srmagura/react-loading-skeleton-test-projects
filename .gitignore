@@ -7,4 +7,4 @@
 .pnp.*
 node_modules/
 
-node-cjs/main.js
+node-cjs/*.js
