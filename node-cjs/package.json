@@ -1,0 +1,10 @@
+{
+  "name": "node-cjs",
+  "scripts": {
+    "start": "tsc && node main.js"
+  },
+  "dependencies": {
+    "@srmagura/react-loading-skeleton": "^3.2.1",
+    "typescript": "^5.0.4"
+  }
+}
