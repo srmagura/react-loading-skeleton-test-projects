@@ -5,7 +5,7 @@
     "start": "tsc && node main.js"
   },
   "dependencies": {
-    "@srmagura/react-loading-skeleton": "^3.2.1",
+    "react-loading-skeleton": "^3.3.0",
     "@types/react": "^18.2.0",
     "typescript": "^5.0.4"
   }
