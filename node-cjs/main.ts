@@ -1,4 +1,4 @@
-import Skeleton, { SkeletonTheme } from '@srmagura/react-loading-skeleton';
+import Skeleton, { SkeletonTheme } from 'react-loading-skeleton';
 
 console.log(Skeleton);
 console.log(SkeletonTheme);
